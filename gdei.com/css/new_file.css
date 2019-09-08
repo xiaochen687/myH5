@@ -1,0 +1,83 @@
+.head{
+	width: 1264px;
+	height: 110px;
+	background-color: #3d8031;
+	border-bottom: 1px solid #5a9a3a;
+	position: relative;
+}
+.head_in{
+	width: 980px;
+	height: 110px;
+	position: absolute;
+	left: 50%;
+	margin-left: -490px;
+
+	
+}
+.head_right{
+	width: 108px;
+	height: 28px;
+	position: absolute;
+	left: 1010px;
+}
+.head .head_right p{
+	color: #b5d48c;
+	font-size: 10px;
+	line-height: 28px;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+.nav{
+	width: 1264px;
+	height: 30px;
+	background-color: #33712a;
+	
+}
+.nav_in{
+	width: 980px;
+	height: 30px;
+	margin: 0 auto;
+}
+.nav .nav_in ul{
+	margin: 0;
+	padding: 0;
+	
+}
+.nav .nav_in ul li{
+	float: left;
+	width: 87px;
+	height: 30px;
+	list-style: none;
+}
+.nav .nav_in ul li p{
+	width: 86px;
+	height: 17px;
+	font-family: "microsoft yahei";
+	text-align: center;
+	font-size: 14px;
+	color: #fcfcfc;
+	border-right: 1px dotted #fff;
+	line-height: 16px;
+	margin-top: 7px;
+}
+.focus{
+	width: 1264px;
+	height: 247px;
+	background-image: url(../img/捕获.PNG);
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+.focus .focus_in{
+	width: 980px;
+	height: 240px;
+	margin-top: 7px;
+	margin-left: 142px;
+	margin-right: 142px;
+	
+}
+.focus .focus_in .focus_left{
+	width: 680px;
+	height: 240px;
+	background-image: url(http://www.gdei.edu.cn/2014/images/index_20190108.jpg);
+}
