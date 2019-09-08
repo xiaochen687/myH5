@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>给你的歌</title>
+		<style type="text/css">
+			body{
+				background: url(images/0.jpg);
+				background-size: 100%;
+				background-repeat: no-repeat;
+			}
+			@keyframes myfirst{
+				0%{opacity: 0;}
+				25%{opacity: 100;}
+				50%{opacity: 0;}
+				100%{opacity: 0;}
+			}
+			@keyframes mysecond{
+				0%{opacity: 0;}
+				50%{opacity: 0;}
+				75%{opacity: 100;}
+				100%{opacity: 0;}
+			}
+			p{
+				font-size: 100px;
+				position: absolute;
+				width:100%;
+				text-align: center;
+				/* animation:myfirst 7.47s infinite; */
+			}
+			#canghai{
+				animation:myfirst 7.47s infinite;
+			}
+			#taotao{
+				animation:mysecond 7.47s infinite;
+			}
+		</style>
+	</head>
+	<body>
+		<audio src="wav/bgm.wav" loop="loop" autoplay="autoplay" preload="auto"></audio>
+		<p id="canghai">沧海笑</p>
+		<p id="taotao">滔滔两岸潮</p>
+	</body>
+</html>
